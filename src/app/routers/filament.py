@@ -34,3 +34,5 @@ async def update_filament_inventory(usage: FilamentUsage, service: FilamentServi
     if not success:
         raise HTTPException(status_code=HTTPStatus.BAD_REQUEST, detail="Failed to update filament.")
     return {"message": "Filament inventory updated successfully."}
+
+

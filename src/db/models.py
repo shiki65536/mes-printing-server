@@ -132,3 +132,5 @@ class Filament(SQLModel, table=True):
     weight: float = Field(description="Total weight including spool")
     filament_left: float = Field(default=0, description="Remaining filament")
     filament_waste: float = Field(default=0, description="Wasted filament")
+
+
